@@ -23,3 +23,10 @@ exports.allColors = allColors;
 exports.getBlue = () => {
   return allColors[2];
 }
+
+async function lambda(){
+  let c = new Color("yellow", "123");
+  console.log(c.name);
+}
+
+lambda();
